@@ -5,9 +5,14 @@
     "host": "0.0.0.0"
   },
   "database": {
-    "client": "sqlite3",
-    "useNullAsDefault": true,
-    "debug": false
+    "client": "mysql",
+    "connection": {
+      "host": "localhost",
+      "port": 3306,
+      "database": "local_ghost_blog",
+      "user": "legacyroot",
+      "password": null
+    }
   },
   "mail": {
     "transport": "Direct"
