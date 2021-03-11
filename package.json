@@ -4,9 +4,7 @@
     "node": "^14.15.0"
   },
   "scripts": {
-    "production": "NODE_ENV=production node index",
-    "dev": "NODE_ENV=development node index",
-    "dev-debug": "NODE_ENV=development DEBUG=ghost:* node index"
+    "start": "node index"
   },
   "dependencies": {
     "ghost": "3.42.0",

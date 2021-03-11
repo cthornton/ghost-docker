@@ -2,13 +2,10 @@
   "url": "http://localhost",
   "server": {
     "port": 2368,
-    "host": "127.0.0.1"
+    "host": "0.0.0.0"
   },
   "database": {
     "client": "sqlite3",
-    "connection": {
-      "filename": "/Users/christopher/projects/ghost-docker/dev_data/database.db"
-    },
     "useNullAsDefault": true,
     "debug": false
   },
