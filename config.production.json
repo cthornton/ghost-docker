@@ -10,6 +10,9 @@
       "ssl": true
     }
   },
+  "storage": {
+    "active": "s3"
+  },
   "mail": {
     "transport": "Direct"
   },
@@ -21,6 +24,6 @@
   },
   "process": "local",
   "paths": {
-    "contentPath": "./content"
+    "contentPath": "../../content/"
   }
 }

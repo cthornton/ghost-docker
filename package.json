@@ -8,6 +8,6 @@
   },
   "dependencies": {
     "ghost": "3.42.0",
-    "sqlite3": "^5.0.2"
+    "ghost-storage-adapter-s3": "^2.8.0"
   }
 }
