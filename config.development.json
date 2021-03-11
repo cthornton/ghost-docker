@@ -14,15 +14,6 @@
       "password": null
     }
   },
-  "storage": {
-    "active": "s3",
-    "s3": {
-      "endpoint": "sfo3.digitaloceanspaces.com",
-      "assetHost": "https://christhorntonsf-blog.sfo3.cdn.digitaloceanspaces.com",
-      "bucket": "christhorntonsf-blog",
-      "region": "sfo3"
-    }
-  },
   "mail": {
     "transport": "Direct"
   },
