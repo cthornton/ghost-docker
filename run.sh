@@ -12,7 +12,7 @@ if [[ "$ENV" == "development" ]]; then
   sqlite3 "$(pwd)/dev_data/database.db" "create table aTable(field1 int); drop table aTable;" > /dev/null
   database__connection__filename="$(pwd)/dev_data/database.db" NODE_ENV=development yarn start
 elif [[ "$ENV" == "production" ]]; then
-  yarn run bar
+  NODE_ENV=production yarn start
 else
   echo "Invalid mode!"
   exit 1

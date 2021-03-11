@@ -4,7 +4,7 @@ RUN apk add --no-cache sqlite sqlite-dev
 WORKDIR /usr/src/app
 
 COPY . .
-RUN yarn install
+RUN yarn install --production --ignore-optional
 
 EXPOSE 2368
 ENTRYPOINT ["/bin/sh"]
