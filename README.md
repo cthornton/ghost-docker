@@ -16,7 +16,7 @@ ENV=development ./run.sh
 ```
 
 This assumes you have a local MySQL 8 server running with a user named `legacyroot`
-that uses the legacy MySQL native password authorization. See `local_migration_workaround/local-ghost.sql`
+that uses the legacy MySQL native password authorization. See `local_migration_workaround/local-ghost-setup.sql`
 for some sql snippets on how to set this up
 
 ### With Docker
