@@ -7,7 +7,7 @@
     "start": "node index"
   },
   "dependencies": {
-    "ghost": "3.42.0",
+    "ghost": "4.0.1",
     "ghost-storage-adapter-s3": "^2.8.0"
   }
 }
